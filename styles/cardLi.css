@@ -1,0 +1,54 @@
+
+.card-music{
+    width: 308px;
+    background-color: var(--color-grey-8);
+    margin-right: 17px;
+    height: 259px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+
+.img{
+    width: 100%;
+    height: 113px;
+}
+
+
+
+
+.infor-card{
+    display: flex;
+    margin-top: 12px;
+    color: var(--color-grey-2);
+}
+
+
+
+.tag-music{
+    font-size: 12px;
+    font-weight: 500;
+
+    margin-left: 12px;
+}
+.title-card{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 12px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: var(--color-grey-1-title);
+}
+
+.interation-user{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+    align-items: center;
+}
+.interation-user span{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-grey-1-title);
+}

@@ -1,0 +1,64 @@
+#dark-mode{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--color-grey-1);
+    cursor: pointer;
+}
+
+.btn-active{
+    background-color: var(--color-grey-1);
+    border-radius: 4px;
+    width: 58px;
+    height: 32px;
+    color: var(--color-white-fixed);
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.btn-desactive{
+    background-color: var(--color-grey-7-buttonBuy);
+    border-radius: 4px;
+    border: 1px solid var(--color-grey-8-buttons);
+    height: 32px;
+    color: var(--color-grey-2);
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.btn-desactive:hover{
+    background-color: black;
+    border: 1.5px solid var(--color-grey-9);
+    transition: 0.5s;
+    color: var(--color-grey-9)
+}
+
+.btn-desactive:hover .dark-mode{
+    border: 1.5px solid var(--color-grey-9);
+    transition: 0.5s;
+    color: var(--color-grey-9)
+}
+
+
+.btn-buy{
+    width: 75px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--color-grey-7-buttonBuy);
+    border: 1px solid var(--color-grey-7-buttonBuy);
+    cursor: pointer;
+    color: var(--color-grey-2);
+}

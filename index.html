@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/cardLi.css">
+
+    <title>Open Music</title>
+  </head>
+  <body>
+  <header>
+
+    <section class="upper-site">
+      <h1 class="title-site">open music</h1>
+      <div>
+      <button id="dark-mode">
+        <img src="./assets/img/moon.jpg" alt="moonDark" id = "dark-icon">
+      </button>
+      </div>
+      </section>
+      <h3 class="title-general-upper" id="title-upper">Gênero Musical</h3>
+      <nav class="nav-music">
+        <button class="btn-desactive" id ="typeAll">Todos</button>
+        <button class="btn-desactive" id="type1">Pop</button>
+        <button class="btn-desactive" id="type2">MPB</button>
+        <button class="btn-desactive" id="type3">Forró</button>
+        <button class="btn-desactive" id="type4">Samba</button>
+        <button class="btn-desactive" id="type5">Baião</button>
+        <button class="btn-desactive" id="type6">Rap</button>
+        <button class="btn-desactive" id="type7">Hip-Hop</button>
+        <button class="btn-desactive" id="type8">Rock</button>
+        <button class="btn-desactive" id="type9">Reggae</button>
+        <button class="btn-desactive" id="type10">Country</button>
+        <button class="btn-desactive" id="type11">Gospel</button>
+      </nav>
+  </header>
+  <main class="container-main">
+  <div class="price">
+    <h3>Definir preço</h3>
+    <span id="at-value"></span>
+  </div>
+  <div class="slider">
+  <input type="range" min="0" max="100" value="1" step="1" id="range-input" class="inputSlider">
+  </div>
+  <h3 class="title-general">Albums Encontrados</h3>
+
+  <section class="container">
+      <ul id="ul-list">
+        <!-- <li class="card-music">
+          <img src="./assets/img/1.jpg" alt="img-album" class="img">
+          
+          <div class="infor-card">
+            <span class="tag-music">Scalene</span>
+            <span class="tag-music">2017</span>
+          </div>
+          <h4 class="title-card">Magnetite</h4>
+          <div class="interation-user">
+          <span>R$70,00</span>
+          <button class="btn-buy">Comprar</button>
+          </div>
+        </li>
+        <li class="card-music">
+          <img src="./assets/img/1.jpg" alt="img-album" class="img">
+          
+          <div class="infor-card">
+            <span class="tag-music">Scalene</span>
+            <span class="tag-music">2017</span>
+          </div>
+          <h4 class="title-card">Magnetite</h4>
+          <div class="interation-user">
+          <span>R$70,00</span>
+          <button class="btn-buy">Comprar</button>
+          </div>
+        </li>
+        <li class="card-music">
+          <img src="./assets/img/1.jpg" alt="img-album" class="img">
+          
+          <div class="infor-card">
+            <span class="tag-music">Scalene</span>
+            <span class="tag-music">2017</span>
+          </div>
+          <h4 class="title-card">Magnetite</h4>
+          <div class="interation-user">
+          <span>R$70,00</span>
+          <button class="btn-buy">Comprar</button>
+          </div>
+        </li>
+        <li class="card-music">
+          <img src="./assets/img/1.jpg" alt="img-album" class="img">
+          
+          <div class="infor-card">
+            <span class="tag-music">Scalene</span>
+            <span class="tag-music">2017</span>
+          </div>
+          <h4 class="title-card">Magnetite</h4>
+          <div class="interation-user">
+          <span>R$70,00</span>
+          <button class="btn-buy">Comprar</button>
+          </div>
+        </li> -->
+
+        
+      </ul>
+<!-- <div class="divEmpty">
+  <h3>Não encontramos em nosso banco de dados</h3>
+  
+</div> -->
+
+  </section>
+
+  
+</main>
+    <script src="./scripts/theme.js"></script>
+    <script src="./pages/home/productsData.js"></script>
+    <script src="./pages/home/index.js"></script>
+  </body>
+</html>

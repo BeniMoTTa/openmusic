@@ -10,13 +10,17 @@
   --color-brand-1:#9747ff;
   --color-grey-0: #15171a;
   --color-grey-1: #212529;
+  --color-grey-1-title:#212529;
   --color-grey-2: #2b2f33;
   --color-grey-3: #868e96;
   --color-grey-4: #adb5bd;
   --color-grey-5: #ced4da;
   --color-grey-6: #dee2e6;
+  --color-grey-6-input: #ced4da;
   --color-grey-7: #f1f3f5;
+  --color-grey-7-button:#f1f3f5;
   --color-grey-8: #f8f9fa;
+  --color-grey-7-buttonBuy:#f1f3f5;
   --color-grey-9: #fdfeff;
 
   --color-disable-fixed: #212529;
@@ -35,12 +39,46 @@ body {
   font-family: "Inter", sans-serif;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--color-grey-9);
+  background-color: var(--color-white-fixed);
+  transition: 0.7s;
 }
 
 .container {
   width: var(--container);
   max-width: 100%;
-  padding: 0 1rem;
   margin: 0 auto;
+}
+
+ul {
+  margin-top: 40px;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: none;
+  transition: 2s ease;
+}
+
+.dark-mode:root {
+  --color-brand-1:#9747ff;
+  --color-grey-0: #15171a;
+  --color-grey-1:  #adb5bd;
+  --color-grey-1-title:#f8f9fa;
+  --color-grey-8-buttons:#212529;
+  --color-grey-2: #868e96;
+  --color-grey-3: #2b2f33;
+  --color-grey-4: #adb5bd;
+  --color-grey-5: #ced4da;
+  --color-grey-6: #dee2e6;
+  --color-grey-6-input: #212529;
+  --color-grey-7: #f1f3f5;
+  --color-grey-7-buttonBuy:#2b2f33;
+  --color-grey-8: #212529;
+  --color-grey-9: #fdfeff;
+  /* #212529 */
+  /* #f8f9fa */
+  /*  */
+  --color-disable-fixed: #212529;
+  --color-actived-fixed: #2b2f33;
+  --color-white-fixed: #15171a;
 }
